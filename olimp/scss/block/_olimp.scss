@@ -1,0 +1,41 @@
+.olimp {
+  padding-top: 150px;
+
+  .title {
+    margin-bottom: 50px;
+  }
+
+  &__box {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(157, 165, 185, 0.2);
+    border-radius: 1px;
+    padding: 30px 0;
+
+
+    &__img-box {
+      height: 120px;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+      }
+    }
+  }
+
+  &__title {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #363C44;
+    // padding: 30px 0;
+  }
+}
+
+#olimp-carousel .owl-stage-outer {
+  padding: 15px;
+  margin: -15px;
+}

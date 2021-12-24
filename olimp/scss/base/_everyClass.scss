@@ -1,0 +1,99 @@
+.title {
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 36px;
+   /* identical to box height */
+   color: #363C44;
+}
+
+.btn {
+   font-size: 16px;
+   line-height: 16px;
+   color: $hover;
+   padding: 9px 20px 7px;
+   border-radius: 3px;
+   border: 1px solid #6190D7;
+   display: inline-block;
+   transition: 0.3s;
+
+   &:hover {
+      color: #fff;
+      background-color: $hover;
+   }
+}
+
+#news-carousel button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+   padding: 15px !important;
+   transition: .3s;
+   border: 1px solid $hover;
+   color: $hover;
+}
+
+#news-carousel .owl-nav {
+   text-align: start;
+}
+
+#news-carousel .owl-nav [class*=owl-]:hover {
+   background: $hover;
+   color: #fff;
+}
+
+#news-carousel .owl-nav .owl-prev {
+   margin-right: 20px;
+}
+
+#news-carousel .owl-nav .owl-prev::after {}
+
+
+#olimp-carousel.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+   display: block;
+   // max-width: 1410px;
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   top: 40%;
+   transform: translateY(-50%);
+   // bottom: 72px;
+   transform: translateX(-50%);
+   left: 50%;
+
+   .owl-prev {
+      // margin: 0 12px 0 0;
+      background: #D9DDE3;
+      border-radius: 4px;
+      color: $hover;
+      border: none;
+      transition: 0.3s;
+      position: relative;
+      left: -20px;
+
+      &:hover {
+         background: $hover;
+         color: #fff;
+      }
+   }
+
+   .owl-next {
+      background: #D9DDE3;
+      border-radius: 4px;
+      transition: 0.3s;
+      color: $hover;
+      border: none;
+      position: relative;
+      padding: 15px !important;
+      left: 20px;
+
+      &:hover {
+         background: $hover;
+         color: #fff;
+      }
+   }
+}
+
+#hero-carousel.owl-carousel .owl-dots.disabled,
+#hero-carousel.owl-carousel .owl-nav.disabled {
+   display: none;
+}

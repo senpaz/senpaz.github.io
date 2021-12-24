@@ -1,0 +1,1544 @@
+@media (max-width: 1550px) {
+   .header {
+
+      &__container {
+         max-width: 1440px;
+         padding: 0 15px;
+      }
+
+      &__logo {
+         flex: 0 0 460px;
+         max-width: 460px;
+         padding: 25px 30px;
+      }
+   }
+
+   .hero {
+
+      &__wrapper {
+         padding-top: 130px;
+         padding-bottom: 50px;
+      }
+
+      &__news {
+         // margin-top: 90px;
+         transition: 0.3s;
+      }
+   }
+}
+
+@media (max-width: 1449.98px) {
+   .container {
+      max-width: 1240px !important;
+
+   }
+
+   .header {
+
+      &__container {
+         max-width: 1240px;
+         padding: 0 15px;
+      }
+
+      &__logo {
+
+         flex: 0 0 390px;
+         max-width: 390px;
+         padding: 15px 20px;
+
+         &__img {
+            margin-right: 20px;
+            height: 85px;
+         }
+
+         &__title {
+            font-size: 18px;
+            line-height: 20px;
+         }
+      }
+
+      &__menu {
+         padding: 25px 0 20px 20px;
+      }
+
+      &__top {
+         padding-bottom: 15px;
+
+         &__support {
+            margin-right: 50px;
+
+            a,
+            i {
+               font-size: 15px;
+               line-height: 18px;
+            }
+         }
+
+         &__leng {
+
+            a,
+            i {
+               font-size: 14px;
+               line-height: 18px;
+            }
+         }
+      }
+
+      &__bottom {
+         padding-top: 15px;
+
+         &__nav {
+            a {
+               font-size: 15px;
+               line-height: 15px;
+            }
+         }
+      }
+   }
+
+   .hero {
+
+      &__wrapper {
+         height: calc(100vh - 115px);
+         padding-top: 110px;
+      }
+
+      &__info {
+         width: 80%;
+
+         h1 {
+            font-size: 35px;
+         }
+
+      }
+
+      &__date {
+         font-size: 16px;
+         line-height: 18px;
+
+         i {
+            margin-right: 5px;
+            position: relative;
+            top: 1px;
+         }
+      }
+
+      &__btn {
+         margin-top: 60px;
+         font-size: 17px;
+      }
+
+      &__news {
+         // margin-top: 70px;
+      }
+
+      &__box {
+         padding: 20px;
+
+         &__time {
+            font-size: 15px;
+            line-height: 16px;
+            padding-bottom: 15px;
+
+            i {
+               margin-right: 5px;
+            }
+         }
+
+         &__text {
+            font-size: 15px;
+            margin-top: 15px;
+            line-height: 135%;
+         }
+      }
+   }
+
+   .news {
+      &__title-box {
+         margin-bottom: 40px;
+      }
+
+      &__text {
+         font-size: 16px;
+      }
+
+      &__date {
+         font-size: 15px;
+         line-height: 17px;
+         color: #B0B0B0;
+
+         i {
+            margin-right: 5px;
+         }
+      }
+
+      #news-carousel .owl-nav {
+         margin-top: 0;
+      }
+   }
+
+   .banner {
+      padding-top: 80px;
+   }
+
+   .news2 {
+      padding-top: 80px;
+
+      &__box {
+         margin-top: 30px;
+         padding: 20px;
+      }
+
+      &__top {
+         &__subtitle {
+            font-size: 18px;
+            line-height: 130%;
+            margin-top: 15px;
+         }
+
+         &__text {
+            font-size: 15px;
+            margin-top: 10px;
+         }
+      }
+
+      &__bottom {
+
+         &__item {
+            padding-top: 25px;
+            margin-bottom: 25px;
+
+
+            &__info {
+
+               h3 {
+                  font-size: 14px;
+               }
+            }
+
+            &__date {
+               font-size: 15px;
+               line-height: 19px;
+               color: #B0B0B0;
+
+               i {
+                  font-size: 14px;
+                  margin-right: 5px;
+               }
+            }
+         }
+      }
+   }
+
+   .partners {
+      &__left-box {
+         &__img {
+            width: 80px;
+            height: 60px;
+            margin-right: 15px;
+         }
+
+         &__info {
+            flex: unset;
+            margin-right: auto;
+
+            &__link {
+               font-weight: 300;
+               font-size: 14px;
+               // line-height: 22px;
+               color: #9A9A9A;
+               padding-bottom: 10px;
+               border-bottom: 1px solid #D8D8D8;
+
+            }
+
+            &__text {
+               font-size: 16px;
+               margin-top: 15px;
+            }
+         }
+
+         &__foreign {
+            position: relative;
+            font-size: 14px;
+            top: -20px;
+            padding: 10px;
+            background: #F7F7F7;
+            border-radius: 1px;
+            height: 35px;
+         }
+      }
+
+      &__right {
+         padding: 33px 15px 33.5px;
+
+         &__info {
+            p {
+               font-size: 16px;
+            }
+
+            &__img-box {
+               flex: 0 0 65px;
+               max-width: 65px;
+               height: 65px;
+
+               i {
+                  font-size: 30px;
+               }
+            }
+
+         }
+      }
+
+      &__more {
+         font-size: 17px;
+      }
+
+      &__seasons {
+         font-size: 13px;
+      }
+   }
+
+   .olimp {
+      padding-top: 80px;
+
+      &__box {
+         &__img-box {
+            height: 80px;
+         }
+      }
+
+      &__title {
+         font-size: 16px;
+      }
+   }
+
+   .footer {
+      padding-top: 80px;
+   }
+
+   .title {
+      font-size: 25px;
+   }
+}
+
+@media (max-width: 1199.98px) {
+   .col-lg-none {
+      display: none;
+   }
+
+   .container {
+      max-width: 1240px !important;
+   }
+
+   .header__burger {
+      display: block;
+      right: 5px;
+      bottom: 16px;
+      width: 25px;
+      height: 14px;
+      position: absolute;
+      z-index: 4;
+      cursor: pointer;
+   }
+
+   .header__burger span {
+      position: absolute;
+      background-color: #000;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      top: 6px;
+      transition: all 0.3s ease 0s;
+   }
+
+   .header__burger:before,
+   .header__burger:after {
+      content: '';
+      background-color: #000;
+      position: absolute;
+      width: 75%;
+      height: 2px;
+      left: 0;
+      transition: all 0.3s ease 0s;
+   }
+
+   .header__burger:before {
+      top: 0;
+   }
+
+   .header__burger:after {
+      bottom: 0;
+   }
+
+   .header__burger.active span {
+      transform: scale(0);
+      background-color: #fff;
+   }
+
+   .header__burger.active:before {
+      transform: rotate(45deg);
+      top: 4px;
+      background-color: #fff;
+   }
+
+   .header__burger.active:after {
+      transform: rotate(-45deg);
+      // width: 100%;
+      bottom: 8.5px;
+      background-color: #fff;
+   }
+
+   .header {
+
+      &__container {
+         padding: 0px 15px 0 0;
+      }
+
+      &__logo {
+         flex: 0 0 370px;
+         max-width: 370px;
+         padding: 15px 15px;
+
+         &__img {
+            margin-right: 15px;
+            height: 70px;
+         }
+
+         &__title {
+            font-size: 16px;
+            line-height: 18px;
+         }
+
+         &__subtitle {
+            margin-top: 10px;
+            width: 165px;
+
+            p {
+               font-size: 11px;
+               line-height: 13px;
+            }
+         }
+      }
+
+      &__menu {
+         padding: 20px 0 15px 20px;
+      }
+
+      &__top {
+         padding-bottom: 15px;
+
+         &__support {
+            display: flex;
+            justify-content: start;
+            flex-grow: 0;
+            margin-right: 70px;
+
+            a,
+            i {
+               margin-right: 20px;
+               font-size: 17px;
+            }
+
+
+            i {
+               position: relative;
+               top: 2px;
+               margin-right: 8px;
+            }
+
+            a:hover {
+               i {
+                  color: $hover;
+               }
+
+            }
+         }
+
+         &__leng {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            a,
+            i {
+               font-size: 14px;
+            }
+         }
+      }
+
+      &__bottom {
+         padding-top: 15px;
+         display: none;
+
+         &__nav {
+            a {
+               font-size: 15px;
+               line-height: 15px;
+            }
+         }
+      }
+   }
+
+   .hero {
+
+      &__wrapper {
+         height: calc(100vh - 100px);
+         padding-top: 70px;
+      }
+
+      &__info {
+         width: 80%;
+
+         h1 {
+            font-size: 28px;
+         }
+
+      }
+   }
+
+   .news {
+      padding-top: 60px;
+
+      &__img-box {
+         height: 230px;
+      }
+
+      &__subtitle {
+         font-size: 18px;
+         margin: 10px 0;
+         line-height: 130%;
+      }
+
+      &__text {
+         font-size: 15px;
+         margin-bottom: 20px;
+         display: -webkit-box;
+         -webkit-line-clamp: 3;
+         -webkit-box-orient: vertical;
+         overflow: hidden;
+      }
+
+      #news-carousel button.owl-next,
+      .owl-carousel .owl-nav button.owl-prev {
+         padding: 10px !important;
+      }
+
+      &__last-box {
+         &__item {
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+
+            &__info-box {
+               h3 {
+                  font-size: 16px;
+               }
+            }
+
+            &__img-box {
+               margin-right: 15px;
+            }
+         }
+      }
+   }
+
+   .banner {
+      padding-top: 60px;
+   }
+
+   .news2 {
+      .title {
+         font-size: 20px;
+      }
+
+      &__box {
+         margin-top: 20px;
+         padding: 15px;
+      }
+
+      &__top {
+         margin-bottom: 20px;
+
+         &__subtitle {
+            font-size: 16px;
+         }
+
+         &__img-box {
+            height: 150px;
+         }
+
+         &__text {
+            font-size: 14px;
+            line-height: 130%;
+         }
+
+         &__date {
+            font-size: 14px;
+            line-height: 16px;
+            color: #0754C8;
+
+            i {
+               margin-right: 5px;
+               position: relative;
+               top: 1px;
+            }
+
+            margin-top: 15px;
+         }
+      }
+
+      &__bottom {
+         padding-top: 20px;
+         margin-bottom: 20px;
+
+         &__item {
+            &__img-box {
+               height: 70px;
+               max-width: 90px;
+               -webkit-box-flex: 0;
+               -ms-flex: 0 0 115px;
+               flex: 0 0 90px;
+            }
+
+            &__info {
+               h3 {
+                  font-weight: 600;
+                  font-size: 13px;
+                  display: -webkit-box;
+                  -webkit-line-clamp: 3;
+                  -webkit-box-orient: vertical;
+                  overflow: hidden;
+               }
+            }
+
+            &__date {
+               font-size: 12px;
+            }
+         }
+      }
+
+      .btn {
+         margin: 0 0 10px 0;
+      }
+   }
+
+   .partners {
+      padding-top: 80px;
+
+      &__right {
+         padding: 16.5px 15px;
+         margin-bottom: 20px;
+
+         &__info {
+            p {
+               font-size: 15px;
+            }
+
+            &__season {
+               font-size: 14px;
+               line-height: 110%;
+            }
+         }
+      }
+
+      .partners__mb-none {
+         margin: 0 !important;
+      }
+
+      .btn {
+         margin-top: 10px;
+      }
+
+   }
+
+   .olimp {
+      &__box {
+         padding: 20px 0;
+      }
+
+      .title {
+         margin-bottom: 40px;
+      }
+
+      padding-top: 80px;
+
+      #olimp-carousel .owl-nav {
+         display: none;
+      }
+   }
+
+   .footer {
+      padding-top: 80px;
+
+      &__body {
+         padding-top: 30px;
+      }
+
+      &__links .footer__head {
+         max-width: 219px;
+         font-size: 15px;
+         line-height: 18px;
+      }
+
+      &__social {
+         font-size: 15px;
+
+      }
+
+      &__feedback a {
+         font-size: 14px;
+         line-height: 120%;
+      }
+
+      &__telegramm p {
+         font-size: 14px;
+      }
+
+      .btn {
+         font-size: 14px;
+      }
+
+      &__bottom {
+         padding: 20px 0;
+
+         p {
+            font-size: 13px;
+            line-height: 120%;
+         }
+      }
+   }
+
+   .title {
+      font-size: 23px;
+      line-height: 24px;
+   }
+}
+
+@media (max-width: 991.98px) {
+   .col-md-none {
+      display: none;
+   }
+
+   .header {
+      &__top {
+         &__support {
+            justify-content: flex-end;
+            flex-grow: 1;
+            margin-right: 0;
+
+            a,
+            i {
+               margin: 0;
+            }
+
+            i {
+               margin-left: 20px;
+            }
+         }
+      }
+   }
+
+   .hero {
+      &__info {
+         width: 90%;
+      }
+
+      h1 {
+         font-size: 25px;
+      }
+
+      &__btn {
+         margin-top: 60px;
+         font-size: 15px;
+      }
+
+      &__date {
+         font-size: 14px;
+         line-height: 16px;
+      }
+   }
+
+   .news {
+      padding-top: 40px;
+
+      .btn {
+         font-size: 14px;
+         line-height: 14px;
+         padding: 7px 20px 7px;
+      }
+
+      &__title-box {
+         margin-bottom: 30px;
+
+         h2 {
+            font-size: 18px;
+         }
+
+      }
+
+      &__img-box {
+         height: 180px;
+      }
+
+      &__subtitle {
+         font-size: 16px;
+         margin: 10px 0;
+         line-height: 120%;
+      }
+
+      &__text {
+         font-size: 14px;
+         margin-bottom: 20px;
+         display: -webkit-box;
+         -webkit-line-clamp: 3;
+         -webkit-box-orient: vertical;
+         overflow: hidden;
+      }
+
+      &__last-box {
+         &__item {
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+
+            &__info-box {
+               h3 {
+                  font-size: 15px;
+               }
+            }
+
+            &__img-box {
+               height: 85px;
+               max-width: 135px;
+               flex: 0 0 135px;
+            }
+         }
+      }
+
+      &__date {
+         font-size: 13px;
+      }
+   }
+
+   .banner {
+      padding-top: 60px;
+   }
+
+   .news2 {
+      padding-top: 60px;
+
+      &__top {
+         margin: 0;
+      }
+   }
+
+   .partners {
+      padding-top: 60px;
+
+      .more {
+         font-size: 16px;
+      }
+
+      .title {
+         margin-bottom: 30px;
+      }
+
+      &__left-box {
+         padding: 20px 0 20px 15px;
+
+         &__img {
+            flex: 0 0 70px;
+            max-width: 70px;
+         }
+
+         &__info {
+            &__text {
+               font-size: 13px;
+            }
+
+            &__link {
+               font-size: 13px;
+            }
+         }
+
+         &__foreign {
+            font-size: 12px;
+            height: 33px;
+         }
+      }
+
+      &__right {
+         padding: 16.5px 15px;
+         margin-bottom: 20px;
+
+         &__info {
+            p {
+               font-size: 15px;
+            }
+
+            &__season {
+               font-size: 14px;
+               line-height: 110%;
+            }
+         }
+      }
+
+      .partners__mb-none {
+         margin: 0 !important;
+      }
+
+      .btn {
+         margin-top: 10px;
+      }
+
+   }
+
+   .olimp {
+      padding-top: 60px;
+
+      .title {
+         margin-bottom: 30px;
+      }
+   }
+
+   .footer {
+      padding-top: 60px;
+
+      &__top {
+         display: flex;
+         flex-direction: column;
+         // justify-content: space-between;
+         align-items: center;
+         padding-bottom: 30px;
+         border-bottom: 1px solid #80A1DA;
+      }
+
+      &__links {
+         text-align: center;
+
+         .footer__head {
+            max-width: 300px;
+            color: #fff;
+            margin-top: 10px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+         }
+
+         &__logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+         }
+
+         &__social {
+            font-size: 16px;
+            margin-top: 20px;
+
+            a {
+               color: #fff;
+
+            }
+
+            color: #fff;
+
+            i {
+               margin-right: 15px;
+            }
+
+            &__we {
+               display: block;
+               margin-bottom: 20px;
+               font-size: 18px;
+            }
+
+            .icon-twitter {
+               i {
+                  margin: 0;
+               }
+            }
+         }
+      }
+
+      &__feedback {
+         text-align: center;
+         margin-top: 30px;
+
+         a {
+            color: #fff;
+            font-size: 17px;
+            line-height: 140%;
+         }
+
+         p {
+            margin-top: 15px;
+         }
+
+         address {
+            font-style: normal;
+         }
+      }
+
+      &__telegramm {
+         text-align: center;
+         margin-top: 30px;
+
+      }
+
+      &__bottom {
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+         padding: 15px 0;
+
+         p {
+            font-size: 14px;
+            line-height: 140%;
+            color: #FFFFFF;
+         }
+
+         a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #fff;
+         }
+      }
+   }
+
+   .title {
+      font-size: 21px;
+   }
+}
+
+@media (max-width: 767.98px) {
+   .hero {
+      &__wrapper {
+         padding-top: 60px;
+         padding-bottom: 30px;
+      }
+
+      &__info {
+         width: 100%;
+      }
+
+      h1 {
+         font-size: 22px;
+      }
+
+      &__btn {
+         margin-top: 30px;
+         font-size: 15px;
+      }
+
+      &__date {
+         font-size: 14px;
+         line-height: 16px;
+      }
+
+      &__box {
+         padding: 15px;
+
+         &__text {
+            height: 60px;
+         }
+      }
+   }
+
+   .news {
+      padding-top: 40px;
+
+      .btn {
+         font-size: 14px;
+         line-height: 14px;
+         padding: 7px 20px 7px;
+      }
+
+      &__title-box {
+         margin-bottom: 30px;
+
+         h2 {
+            font-size: 18px;
+         }
+
+      }
+
+      &__img-box {
+         height: 260px;
+      }
+
+      &__subtitle {
+         font-size: 16px;
+         margin: 10px 0;
+         line-height: 120%;
+      }
+
+      &__text {
+         font-size: 14px;
+         margin-bottom: 20px;
+         display: -webkit-box;
+         -webkit-line-clamp: 3;
+         -webkit-box-orient: vertical;
+         overflow: hidden;
+      }
+
+      &__last-box {
+         &__item {
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+
+            &__info-box {
+               h3 {
+                  font-size: 16px;
+               }
+            }
+
+            &__img-box {
+               height: 94px;
+               max-width: 150px;
+               -webkit-box-flex: 0;
+               -ms-flex: 0 0 135px;
+               flex: 0 0 150px;
+            }
+         }
+      }
+
+      &__date {
+         font-size: 14px;
+      }
+   }
+
+   .banner {
+      display: none;
+   }
+
+   .news2 {
+      padding-top: 40px;
+
+      &__top {
+         &__img-box {
+            height: 280px;
+         }
+      }
+
+      &__bottom {
+         &__item {
+            &__img-box {
+               height: 94px;
+               max-width: 150px;
+               -webkit-box-flex: 0;
+               -ms-flex: 0 0 135px;
+               flex: 0 0 150px;
+            }
+
+            &__info {
+               h3 {
+                  font-size: 15px;
+               }
+            }
+
+            &__date {
+               font-size: 13px;
+               line-height: 15px;
+            }
+         }
+      }
+   }
+
+   .partners {
+      padding-top: 40px;
+
+      &__left-box {
+         display: flex;
+         justify-content: space-between;
+         padding: 20px 0 20px 20px;
+         background: #FFFFFF;
+         box-shadow: 0px 2px 8px rgba(157, 165, 185, 0.2);
+         border-radius: 1px;
+         margin-bottom: 20px;
+         transition: 0.3s;
+
+         &__img {
+            flex: 0 0 120px;
+            max-width: 120px;
+            height: 70px;
+            background-color: rgb(114, 114, 114);
+            margin-right: 30px;
+         }
+
+         &__info {
+            flex: 0 0 auto;
+            margin-right: auto;
+
+            &__link {
+               font-weight: 300;
+               font-size: 17px;
+               // line-height: 22px;
+               color: #9A9A9A;
+               padding-bottom: 10px;
+               border-bottom: 1px solid #D8D8D8;
+
+            }
+
+            &__text {
+               font-size: 17px;
+               margin-top: 15px;
+
+
+               color: #363C44;
+            }
+         }
+
+         &__foreign {
+            position: relative;
+            top: -20px;
+            padding: 12px;
+            background: #F7F7F7;
+
+            i {
+               color: #9A9A9A;
+            }
+
+            border-radius: 1px;
+            height: 40px;
+            // flex: 0 0 auto;
+         }
+
+         &:hover .partners__left-box__foreign {
+            i {
+               color: $hover;
+            }
+         }
+
+         &:hover .partners__left-box__info__link {
+            color: $hover;
+
+         }
+      }
+
+      &__right {
+         display: flex;
+         justify-content: space-between;
+         border: 1px solid #ECECEC;
+         box-sizing: border-box;
+         border-radius: 4px;
+         // padding: 36px 25px 36px;
+         padding: 20px;
+         margin-bottom: 20px;
+
+         &__info {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            p {
+               font-size: 18px;
+               line-height: 120%;
+               color: #363C44;
+               width: 100%;
+               margin-right: 10px;
+            }
+
+            &__season {
+               font-size: 16px;
+               line-height: 140%;
+               color: #9A9A9A;
+            }
+
+            &__img-box {
+               flex: 0 0 75px;
+               max-width: 75px;
+               height: 75px;
+               border-radius: 50%;
+               background: #EAEEF3;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+
+               // margin-left: 40px;
+               i {
+                  font-size: 35px;
+                  color: $hover;
+               }
+            }
+         }
+      }
+
+      &__more {
+         font-size: 18px;
+         color: #0754C8;
+         margin-bottom: 10px;
+
+         i {
+            font-size: 10px;
+            // margin-left: 8px;
+         }
+      }
+
+      &__seasons {
+         font-size: 16px;
+         margin-bottom: 10px;
+
+         color: #9A9A9A;
+      }
+
+      .col-sm-mt-last {
+         margin-top: 20px !important;
+      }
+   }
+
+   .olimp {
+      padding-top: 40px;
+   }
+
+   .col-sm-mt {
+      margin-top: 30px;
+   }
+}
+
+@media (max-width: 575.98px) {
+   .col-sm-none {
+      display: none;
+   }
+
+   .header {
+      &__container {
+         padding: 0;
+         flex-direction: column;
+         background: linear-gradient(180deg, #E9EEF5 0%, rgba(233, 238, 245, 0) 100%);
+      }
+
+      &__logo {
+         // flex: unset;
+         width: 100%;
+         flex: 0 0 100%;
+         padding: 10px;
+
+         &__img {
+            height: 90px;
+            margin-right: 25px;
+         }
+
+         &__title {
+            width: 100%;
+            font-size: 17px;
+         }
+      }
+
+      &__menu {
+         padding: 20px;
+      }
+
+      &__top {
+         padding: 0;
+         border: unset;
+         justify-content: flex-start;
+
+         &__support {
+            justify-content: start;
+         }
+      }
+
+      .icon-support {
+         margin: 0;
+      }
+
+      &__burger {
+         bottom: 21px;
+         right: 10px;
+      }
+   }
+
+   .hero {
+      &__wrapper {
+         height: calc(100vh - 170px);
+      }
+
+      h1 {
+         font-size: 19px;
+         line-height: 160%;
+      }
+   }
+
+   .news {
+      &__img-box {
+         height: 180px;
+      }
+
+      &__subtitle {
+         font-size: 15px;
+      }
+
+      &__text {
+         font-size: 14px;
+         margin-bottom: 10px;
+      }
+
+      &__last-box {
+         &__item {
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+
+            &__info-box {
+               h3 {
+                  font-size: 13px;
+               }
+            }
+
+            &__img-box {
+               height: 85px;
+               max-width: 130px;
+               flex: 0 0 130px;
+            }
+         }
+      }
+
+      &__date {
+         font-size: 12px;
+      }
+
+      .btn {
+         font-size: 13px;
+      }
+
+      #news-carousel button.owl-next,
+      .owl-carousel .owl-nav button.owl-prev {
+         font-size: 12px;
+      }
+   }
+
+   .news2 {
+      padding-top: 20px;
+
+      &__box {
+         margin-top: 15px;
+      }
+
+      &__top {
+         &__img-box {
+            height: 180px;
+         }
+
+         &__subtitle {
+            font-size: 13px;
+         }
+
+         &__date {
+            font-size: 12px;
+         }
+      }
+
+      &__bottom {
+         &__item {
+            padding-top: 15px;
+            margin-bottom: 15px;
+
+            &__img-box {
+               height: 85px;
+               max-width: 130px;
+               flex: 0 0 130px;
+            }
+
+            &__info {
+               h3 {
+                  font-size: 13px;
+               }
+            }
+
+            &__date {
+               font-size: 12px;
+               line-height: 15px;
+            }
+         }
+      }
+   }
+
+   .partners {
+      padding-top: 40px;
+
+      .more {
+         font-size: 16px;
+      }
+
+      .title {
+         margin-bottom: 20px;
+      }
+
+      &__left-box {
+         padding: 20px 0 20px 15px;
+         margin-bottom: 15px;
+
+         &__img {
+            flex: 0 0 90px;
+            max-width: 90px;
+            margin-right: 15px;
+         }
+
+         &__info {
+            &__text {
+               font-size: 13px;
+            }
+
+            &__link {
+               font-size: 13px;
+            }
+         }
+
+         &__foreign {
+            font-size: 12px;
+            height: 33px;
+         }
+      }
+
+      &__right {
+         padding: 16.5px 15px;
+         margin-bottom: 15px;
+
+         &__info {
+            p {
+               font-size: 16px;
+            }
+
+            &__season {
+               font-size: 15px;
+               line-height: 110%;
+            }
+         }
+      }
+
+      .btn {
+         margin-top: 10px;
+      }
+
+   }
+
+   .title {
+      font-size: 18px;
+   }
+
+   .olimp {
+      .title {
+         margin-bottom: 20px;
+      }
+   }
+
+   .btn {
+      font-size: 15px;
+   }
+
+   .footer {
+      p {
+         font-size: 16px;
+      }
+
+      a {
+         font-size: 15px;
+      }
+
+      &__bottom {
+         p {
+            font-size: 14px;
+         }
+      }
+   }
+}

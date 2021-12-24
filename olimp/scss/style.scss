@@ -1,0 +1,35 @@
+@import "base/nullStyle";
+@import "base/letColor";
+@import "base/everyClass";
+
+body {
+  font-family: "MuseoSans", sans-serif;
+  background: #FCFCFC;
+  color: $hover;
+}
+
+.container {
+  max-width: 1440px !important;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {}
+
+.footer {}
+
+@import "block/header";
+@import "block/hero";
+@import "block/news";
+@import "block/banner";
+@import "block/news2";
+@import "block/partners";
+@import "block/olimp";
+@import "block/footer";
+@import "block/media";

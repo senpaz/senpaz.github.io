@@ -1,0 +1,120 @@
+.links {
+   padding-top: 270px;
+
+   // &:last-child {
+   //    margin: 0;
+   // }
+
+   &__title {
+      position: relative;
+   }
+
+   &__box {
+      background-color: #fff;
+      padding: 24px 30px 35px 30px;
+      margin: 72px 0 0 0;
+   }
+
+   &__logo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__logo-box {
+      height: 55px;
+      flex: 0 0 92px;
+      width: 92px;
+
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: contain;
+         object-position: center;
+      }
+   }
+
+   &__foreign-box {
+      height: 17px;
+      width: 17px;
+      flex: 0 0 17px;
+
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: contain;
+         object-position: center;
+      }
+   }
+
+   &__text {
+      font-size: 17px;
+      margin-top: 10px;
+      display: -webkit-box;
+      overflow: hidden;
+      line-height: 22px;
+      // width: 75%;
+      color: #444650;
+      height: 63.75px;
+   }
+
+   &__prev {
+      width: 11px;
+      height: 11px;
+      display: block;
+      border-radius: 50%;
+      background: transparent;
+      border: 2px solid #959AB2;
+      transition: 0.2s;
+
+      &:hover {
+         background: #959AB2;
+      }
+
+      &.active {
+         background-color: #959AB2;
+      }
+
+   }
+
+   &__next {
+      width: 11px;
+      height: 11px;
+      display: block;
+      border-radius: 50%;
+      background: transparent;
+      border: 2px solid #959AB2;
+      transition: 0.3s;
+
+
+      &:hover {
+         background: #959AB2;
+      }
+
+      &.active {
+         background-color: #959AB2;
+      }
+   }
+}
+
+#links-carousel .owl-nav {
+   max-width: 1410px;
+   position: absolute;
+   display: flex;
+   justify-content: flex-end;
+   width: 100%;
+   top: -8px;
+   // bottom: 72px;
+   transform: translateX(-50%);
+   left: 50%;
+
+   .owl-prev {
+      margin: 0 12px 0 0;
+   }
+}
+
+
+#links-carousel .owl-stage-outer {
+   padding: 15px;
+   margin: -15px;
+}

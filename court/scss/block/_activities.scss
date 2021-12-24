@@ -1,0 +1,104 @@
+.activities {
+   padding-top: 92px;
+
+   .pad-10px .col-md-6 {
+      padding: 0 10px;
+   }
+
+   &__img-box {
+      height: 270px;
+      width: 100%;
+
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         object-position: center;
+      }
+   }
+
+   &__img-box2 {
+      height: 400px;
+      width: 100%;
+
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         object-position: center;
+      }
+   }
+
+   &__text {
+      font-size: 18px;
+      line-height: 24px;
+      color: #444650;
+   }
+
+   &__sub-text {
+      line-height: 23px;
+      font-size: 17px;
+      color: #959AB2;
+      margin-top: 30px;
+   }
+
+   &__block {
+      background: #FFFFFF;
+      box-shadow: 0px 2px 10px rgba(187, 193, 221, 0.3);
+      border-radius: 3px;
+      padding: 38px 0px 27px;
+      flex: 0 0 1130px;
+      max-width: 1130px;
+      position: absolute;
+      bottom: -30px;
+      width: 100%;
+
+      &__item {
+         display: flex;
+         justify-content: space-between;
+         // align-items: ;
+
+         li {
+            text-align: center;
+            flex-basis: 0;
+            flex-grow: 1;
+            max-width: 100%;
+            position: relative;
+
+            // border-right: 1px solid #959AB2;
+            &:after {
+               content: "";
+               height: 80px;
+               position: absolute;
+               width: 0.5px;
+               background-color: #E6E8EB;
+               top: 0;
+               right: 0;
+
+            }
+
+            a {
+               text-align: center;
+
+               i {
+                  font-size: 40px;
+                  display: block;
+                  margin-bottom: 5px;
+               }
+
+               p {
+                  color: #000;
+                  margin-top: auto;
+                  width: 50%;
+                  margin: 0 auto;
+                  // text-align: center;
+               }
+            }
+         }
+      }
+   }
+}
+
+.tab-content {
+   position: relative;
+}

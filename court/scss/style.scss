@@ -1,0 +1,29 @@
+@import "base/nullStyle";
+
+body {
+   font-family: 'Aeroport', sans-serif;
+   background: #FCFDFE;
+}
+
+.container {
+   max-width: 1410px !important;
+   padding: 0 20px;
+   margin: 0 auto;
+}
+
+// повторяющиеся класы
+@import "base/everyClass";
+
+// классы блока
+@import "block/header";
+@import "block/hero";
+@import "block/service";
+@import "block/activities";
+@import "block/relation";
+@import "block/map";
+@import "block/video";
+@import "block/links";
+@import "block/footer";
+
+//АДАПТИВ
+@import "block/media";

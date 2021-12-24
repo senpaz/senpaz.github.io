@@ -2191,6 +2191,7 @@ img[height] {
 }
 
 .c-image-overlay img {
+  height: 100%;
   width: 100%;
   transition: ease 0.6s;
 }

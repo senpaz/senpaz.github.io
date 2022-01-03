@@ -1,0 +1,162 @@
+.footer {
+  background-color: #fff;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 57px 0;
+    border-bottom: 1px solid rgba(217, 218, 225, 0.8);
+  }
+
+  &__item {
+    flex: 0 0 245px;
+
+    &:first-child {
+      flex: 0 0 277px;
+    }
+
+
+
+    ul {
+      li {
+        &:not(:last-child) {
+          margin-bottom: 17px;
+        }
+
+        a {
+          font-size: 16px;
+          color: #7E838C;
+        }
+      }
+    }
+  }
+
+  &__item-img {
+    max-width: 100%;
+    height: 66px;
+    margin-bottom: 57px;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-position: center;
+      object-fit: contain;
+    }
+  }
+
+  &__phone {
+    font-size: 18px;
+    line-height: 20px;
+    color: #2B2E34;
+    margin-bottom: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+
+    i {
+      margin-right: 12px;
+      font-size: 20px;
+    }
+  }
+
+  &__work-days {
+    margin-bottom: 50px;
+
+    p {
+      font-size: 16px;
+      color: #7E838C;
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  &__email {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+
+    color: #2B2E34;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 60px;
+
+    i {
+      font-size: 22px;
+      margin-right: 12px;
+    }
+  }
+
+  &__social {
+    p {
+      font-size: 18px;
+      line-height: 20px;
+      color: #2B2E34;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+
+      a {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        color: #7E838C;
+
+        i {
+          margin-right: 8px;
+        }
+      }
+
+      a:first-child {
+        margin-right: 25px;
+
+        i {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  &__sub-title {
+    font-size: 18px;
+    line-height: 23px;
+    color: #2B2E34;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+
+  &__bottom {
+    padding: 43px 0 33px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div,
+    a {
+      font-size: 16px;
+      color: #7E838C;
+      display: flex;
+      align-items: center;
+
+      span {
+        color: #2B2E34;
+        margin-left: 7px;
+
+        stong {
+          font-weight: 600;
+        }
+      }
+
+      svg {
+        margin-left: 17px;
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+}

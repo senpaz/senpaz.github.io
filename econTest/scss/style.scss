@@ -1,0 +1,33 @@
+@import "base/nullStyle";
+@import "base/letColor";
+@import "base/everyClass";
+
+body {
+  font-family: "Euclid Circular A";
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+  background: #FBFBFB;
+}
+
+.container {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@import "block/header";
+@import "block/promo";
+@import "block/asaid";
+@import "block/catalog";
+@import "block/seo";
+@import "block/footer";
+@import "block/media";

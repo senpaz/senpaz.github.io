@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?qz4dxt');
+  src:  url('fonts/icomoon.eot?qz4dxt#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qz4dxt') format('truetype'),
+    url('fonts/icomoon.woff?qz4dxt') format('woff'),
+    url('fonts/icomoon.svg?qz4dxt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrors-more .path1:before {
+  content: "\e900";
+  color: rgb(56, 211, 232);
+  opacity: 0.5;
+}
+.icon-arrors-more .path2:before {
+  content: "\e901";
+  margin-left: -3.142578125em;
+  color: rgb(56, 211, 232);
+  opacity: 0.2;
+}
+.icon-arrors-more .path3:before {
+  content: "\e902";
+  margin-left: -3.142578125em;
+  color: rgb(56, 211, 232);
+}
+.icon-arrors-more .path4:before {
+  content: "\e903";
+  margin-left: -3.142578125em;
+  color: rgb(56, 211, 232);
+  opacity: 0.8;
+}
+.icon-email-footer .path1:before {
+  content: "\e904";
+  color: rgb(43, 46, 52);
+}
+.icon-email-footer .path2:before {
+  content: "\e905";
+  margin-left: -1.2353515625em;
+  color: rgb(43, 46, 52);
+}
+.icon-email-footer .path3:before {
+  content: "\e906";
+  margin-left: -1.2353515625em;
+  color: rgb(255, 255, 255);
+}
+.icon-arror-right:before {
+  content: "\e907";
+}
+.icon-arror-spoilers:before {
+  content: "\e908";
+}
+.icon-battery:before {
+  content: "\e909";
+}
+.icon-car .path1:before {
+  content: "\e90a";
+  color: ;
+  opacity: 0.12;
+}
+.icon-car .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: ;
+}
+.icon-car .path3:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: ;
+}
+.icon-car .path4:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: ;
+}
+.icon-car .path5:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: ;
+}
+.icon-car .path6:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: ;
+}
+.icon-car .path7:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: ;
+  opacity: 0.3;
+}
+.icon-car .path8:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: ;
+  opacity: 0.6;
+}
+.icon-car .path9:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: ;
+  opacity: 0.8;
+}
+.icon-crane:before {
+  content: "\e913";
+}
+.icon-done:before {
+  content: "\e914";
+}
+.icon-email:before {
+  content: "\e915";
+}
+.icon-exit-big:before {
+  content: "\e916";
+}
+.icon-exit-small:before {
+  content: "\e917";
+}
+.icon-filters:before {
+  content: "\e918";
+}
+.icon-insta:before {
+  content: "\e919";
+}
+.icon-location:before {
+  content: "\e91a";
+}
+.icon-login:before {
+  content: "\e91b";
+}
+.icon-pen:before {
+  content: "\e91c";
+}
+.icon-percent:before {
+  content: "\e91d";
+}
+.icon-phone .path1:before {
+  content: "\e91e";
+  color: ;
+}
+.icon-phone .path2:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: ;
+}
+.icon-phone .path3:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: none;
+}
+.icon-phone-footer:before {
+  content: "\e921";
+}
+.icon-search:before {
+  content: "\e922";
+}
+.icon-shop:before {
+  content: "\e923";
+}
+.icon-shower:before {
+  content: "\e924";
+}
+.icon-soap:before {
+  content: "\e925";
+}
+.icon-support:before {
+  content: "\e926";
+}
+.icon-vk:before {
+  content: "\e927";
+}

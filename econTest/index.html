@@ -1,1 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="font/icomoon/style.css">
+	<link rel="stylesheet" href="font/EuclidCircular/stylesheet.css">
+	<link rel="stylesheet" href="libs/progress/nouislider.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Экон Урфо</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<div class="header__top-burger">
+						<div class="header__burger"><span></span></div>
+						<nav class="menu" id="menu">
+							<div class="menu__header">
+								<div class="menu__header--logo">
+									<img src="images/mob-logo.svg" alt="logo">
+
+								</div>
+								<div class="menu__exit"><i class="icon-exit-big"></i></div>
+							</div>
+							<ul class="menu__top-navs">
+								<li>
+									<div class="asaid__equipment asaid__spoilers">
+										<div class="asaid__content-title asaid__spoilers_title"><i class="icon-battery"></i>
+											Отопительное
+											оборудование </div>
+										<ul class="asaid__content-content asaid__spoilers_content">
+											<li> <a href="#"> Радиаторы отопленияa</a> </li>
+											<li> <a href="#"> Конвекторы отопленияa</a> </li>
+											<li> <a href="#"> Полотенцесушителиa</a> </li>
+											<li> <a href="#"> Арматура для радиаторовa</a> </li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#"> <i class="icon-crane"></i> Комплектация объектов сантехникой</a></li>
+								<li><a href="#"><i class="icon-soap"></i> Дозаторы антисептика и стойки для диспенсера</a></li>
+								<li><a href="#"><i class="icon-shower"></i> Водосберегающая сантехника</a></li>
+							</ul>
+							<ul class="menu__bottom-navs">
+								<li><a href="#">Наше производство</a></li>
+								<li><a href="#">Готовые решения</a></li>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Доставка и оплата</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Новости</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__top-logo">
+						<img src="images/logo.svg" alt="logo " class="sm-none">
+						<img src="images/mob-logo.svg" alt="logo" class="xxl-none sm-flex">
+					</div>
+					<form class="header__top-search sm-none">
+						<button><i class="icon-search"></i></button>
+						<input type="text" name="search" placeholder="Поиск товаров..">
+					</form>
+					<div class="header__top-account">
+						<a class="sm-none" href="#"><svg width="34" height="23" viewBox="0 0 34 23" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M8.59019 17.7131H4.9852C4.41079 17.7131 3.94531 18.1787 3.94531 18.753C3.94531 19.3274 4.41086 19.7929 4.9852 19.7929H8.59026C9.16466 19.7929 9.63014 19.3274 9.63014 18.753C9.63014 18.1786 9.1646 17.7131 8.59019 17.7131Z"
+									fill="#2B2E34" fill-opacity="0.12" stroke="white" stroke-width="0.3" />
+								<path
+									d="M25.9233 14.5588C23.6297 14.5588 21.7637 16.4248 21.7637 18.7185C21.7637 21.0122 23.6297 22.8782 25.9233 22.8782C28.2174 22.8782 30.083 21.0122 30.083 18.7185C30.083 16.4248 28.217 14.5588 25.9233 14.5588ZM25.9233 20.7984C24.7763 20.7984 23.8435 19.8655 23.8435 18.7185C23.8435 17.5715 24.7763 16.6387 25.9233 16.6387C27.0704 16.6387 28.0032 17.5715 28.0032 18.7185C28.0032 19.8656 27.0704 20.7984 25.9233 20.7984Z"
+									fill="#2B2E34" />
+								<path
+									d="M11.7105 14.5588C9.41676 14.5588 7.55078 16.4248 7.55078 18.7185C7.55078 21.0122 9.41676 22.8782 11.7105 22.8782C14.0041 22.8782 15.8701 21.0122 15.8701 18.7185C15.8701 16.4248 14.0041 14.5588 11.7105 14.5588ZM11.7105 20.7984C10.5634 20.7984 9.63062 19.8655 9.63062 18.7185C9.63062 17.5715 10.5634 16.6387 11.7105 16.6387C12.8571 16.6387 13.7903 17.5715 13.7903 18.7185C13.7903 19.8656 12.8575 20.7984 11.7105 20.7984Z"
+									fill="#2B2E34" />
+								<path
+									d="M28.7246 2.6525C28.5478 2.30136 28.1884 2.07983 27.7953 2.07983H22.3184V4.15967H27.154L29.9856 9.79185L31.8443 8.85728L28.7246 2.6525Z"
+									fill="#2B2E34" />
+								<path d="M22.8042 17.7131H14.9355V19.793H22.8042V17.7131Z" fill="#2B2E34" />
+								<path
+									d="M33.7805 11.3559L31.735 8.72141C31.5385 8.46766 31.2352 8.31928 30.9138 8.31928H23.357V1.03989C23.357 0.46548 22.8915 0 22.3172 0H4.9852C4.41079 0 3.94531 0.465544 3.94531 1.03989C3.94531 1.61423 4.41086 2.07977 4.9852 2.07977H21.2772V9.35917C21.2772 9.93358 21.7428 10.3991 22.3171 10.3991H30.4045L31.919 12.3499V17.7131H29.0419C28.4675 17.7131 28.002 18.1787 28.002 18.753C28.002 19.3274 28.4675 19.7929 29.0419 19.7929H32.9589C33.5333 19.7929 33.9988 19.3274 33.9988 18.753V11.9937C33.9988 11.7628 33.9219 11.5382 33.7805 11.3559Z"
+									fill="#2B2E34" />
+								<path
+									d="M8.52275 12.4441H3.73911C3.1647 12.4441 2.69922 12.9096 2.69922 13.484C2.69922 14.0584 3.16476 14.5239 3.73911 14.5239H8.52269C9.09709 14.5239 9.56257 14.0583 9.56257 13.484C9.56264 12.9096 9.09709 12.4441 8.52275 12.4441Z"
+									fill="#2B2E34" fill-opacity="0.3" stroke="white" stroke-width="0.3" />
+								<path
+									d="M10.9139 8.354H2.03989C1.46554 8.354 1 8.81955 1 9.39395C1 9.96836 1.46554 10.4338 2.03989 10.4338H10.9139C11.4883 10.4338 11.9537 9.9683 11.9537 9.39395C11.9537 8.81961 11.4883 8.354 10.9139 8.354Z"
+									fill="#2B2E34" fill-opacity="0.6" stroke="white" stroke-width="0.3" />
+								<path
+									d="M12.6131 4.26367H3.73911C3.1647 4.26367 2.69922 4.72922 2.69922 5.30356C2.69922 5.87796 3.16476 6.34344 3.73911 6.34344H12.6131C13.1875 6.34344 13.653 5.8779 13.653 5.30356C13.653 4.72922 13.1875 4.26367 12.6131 4.26367Z"
+									fill="#2B2E34" fill-opacity="0.8" stroke="white" stroke-width="0.3" />
+							</svg></a>
+						<a class="xxl-none sm-block" href="tel:+74955063650"><svg width="22" height="23" viewBox="0 0 22 23"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M18.8003 15.6163C17.501 14.5313 16.1824 13.874 14.899 14.9574L14.1327 15.6122C13.572 16.0875 12.5296 18.3084 8.49903 13.7814C4.46933 9.26009 6.86734 8.55612 7.42886 8.0849L8.19938 7.42928C9.47603 6.34341 8.99425 4.97644 8.07348 3.56932L7.51783 2.71702C6.59287 1.31318 5.58566 0.391214 4.30566 1.47544L3.61403 2.0655C3.04831 2.46788 1.46699 3.77584 1.0834 6.26064C0.621763 9.24206 2.07803 12.6562 5.41443 16.4022C8.74664 20.1499 12.0092 22.0324 15.0997 21.9996C17.6681 21.9725 19.2192 20.6269 19.7043 20.1376L20.3984 19.5467C21.6751 18.4633 20.8819 17.3603 19.5818 16.2727L18.8003 15.6163Z"
+									fill="white" />
+								<path
+									d="M18.8003 15.6163C17.501 14.5313 16.1824 13.874 14.899 14.9574L14.1327 15.6122C13.572 16.0875 12.5296 18.3084 8.49903 13.7814C4.46933 9.26009 6.86734 8.55612 7.42886 8.0849L8.19938 7.42928C9.47603 6.34341 8.99425 4.97644 8.07348 3.56932L7.51783 2.71702C6.59287 1.31318 5.58566 0.391214 4.30566 1.47544L3.61403 2.0655C3.04831 2.46788 1.46699 3.77584 1.0834 6.26064C0.621763 9.24206 2.07803 12.6562 5.41443 16.4022C8.74664 20.1499 12.0092 22.0324 15.0997 21.9996C17.6681 21.9725 19.2192 20.6269 19.7043 20.1376L20.3984 19.5467C21.6751 18.4633 20.8819 17.3603 19.5818 16.2727L18.8003 15.6163Z"
+									fill="url(#paint0_linear_1_219)" />
+								<path
+									d="M18.8003 15.6163C17.501 14.5313 16.1824 13.874 14.899 14.9574L14.1327 15.6122C13.572 16.0875 12.5296 18.3084 8.49903 13.7814C4.46933 9.26009 6.86734 8.55612 7.42886 8.0849L8.19938 7.42928C9.47603 6.34341 8.99425 4.97644 8.07348 3.56932L7.51783 2.71702C6.59287 1.31318 5.58566 0.391214 4.30566 1.47544L3.61403 2.0655C3.04831 2.46788 1.46699 3.77584 1.0834 6.26064C0.621763 9.24206 2.07803 12.6562 5.41443 16.4022C8.74664 20.1499 12.0092 22.0324 15.0997 21.9996C17.6681 21.9725 19.2192 20.6269 19.7043 20.1376L20.3984 19.5467C21.6751 18.4633 20.8819 17.3603 19.5818 16.2727L18.8003 15.6163Z"
+									stroke="#2B2E34" stroke-width="1.7" />
+								<defs>
+									<linearGradient id="paint0_linear_1_219" x1="11.0227" y1="1" x2="11.0227" y2="22"
+										gradientUnits="userSpaceOnUse">
+										<stop stop-color="white" />
+										<stop offset="1" stop-color="white" stop-opacity="0" />
+									</linearGradient>
+								</defs>
+							</svg>
+						</a>
+						<a href="#"><i class="icon-login"></i></a>
+						<a href="#"><i class="icon-shop"></i> <span class="header__top--basket-counter">3</span></a>
+					</div>
+				</div>
+				<ul class="header__bottom sm-none">
+					<li><a href="#"><i class="icon-location"></i> Екатеринбург</a></li>
+					<li><a href="tel:+74955063650"><svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M18.8003 15.6163C17.501 14.5313 16.1824 13.874 14.899 14.9574L14.1327 15.6122C13.572 16.0875 12.5296 18.3084 8.49903 13.7814C4.46933 9.26009 6.86734 8.55612 7.42886 8.0849L8.19938 7.42928C9.47603 6.34341 8.99425 4.97644 8.07348 3.56932L7.51783 2.71702C6.59287 1.31318 5.58566 0.391214 4.30566 1.47544L3.61403 2.0655C3.04831 2.46788 1.46699 3.77584 1.0834 6.26064C0.621763 9.24206 2.07803 12.6562 5.41443 16.4022C8.74664 20.1499 12.0092 22.0324 15.0997 21.9996C17.6681 21.9725 19.2192 20.6269 19.7043 20.1376L20.3984 19.5467C21.6751 18.4633 20.8819 17.3603 19.5818 16.2727L18.8003 15.6163Z"
+									fill="white" />
+								<path
+									d="M18.8003 15.6163C17.501 14.5313 16.1824 13.874 14.899 14.9574L14.1327 15.6122C13.572 16.0875 12.5296 18.3084 8.49903 13.7814C4.46933 9.26009 6.86734 8.55612 7.42886 8.0849L8.19938 7.42928C9.47603 6.34341 8.99425 4.97644 8.07348 3.56932L7.51783 2.71702C6.59287 1.31318 5.58566 0.391214 4.30566 1.47544L3.61403 2.0655C3.04831 2.46788 1.46699 3.77584 1.0834 6.26064C0.621763 9.24206 2.07803 12.6562 5.41443 16.4022C8.74664 20.1499 12.0092 22.0324 15.0997 21.9996C17.6681 21.9725 19.2192 20.6269 19.7043 20.1376L20.3984 19.5467C21.6751 18.4633 20.8819 17.3603 19.5818 16.2727L18.8003 15.6163Z"
+									fill="url(#paint0_linear_1_219)" />
+								<path
+									d="M18.8003 15.6163C17.501 14.5313 16.1824 13.874 14.899 14.9574L14.1327 15.6122C13.572 16.0875 12.5296 18.3084 8.49903 13.7814C4.46933 9.26009 6.86734 8.55612 7.42886 8.0849L8.19938 7.42928C9.47603 6.34341 8.99425 4.97644 8.07348 3.56932L7.51783 2.71702C6.59287 1.31318 5.58566 0.391214 4.30566 1.47544L3.61403 2.0655C3.04831 2.46788 1.46699 3.77584 1.0834 6.26064C0.621763 9.24206 2.07803 12.6562 5.41443 16.4022C8.74664 20.1499 12.0092 22.0324 15.0997 21.9996C17.6681 21.9725 19.2192 20.6269 19.7043 20.1376L20.3984 19.5467C21.6751 18.4633 20.8819 17.3603 19.5818 16.2727L18.8003 15.6163Z"
+									stroke="#2B2E34" stroke-width="1.7" />
+								<defs>
+									<linearGradient id="paint0_linear_1_219" x1="11.0227" y1="1" x2="11.0227" y2="22"
+										gradientUnits="userSpaceOnUse">
+										<stop stop-color="white" />
+										<stop offset="1" stop-color="white" stop-opacity="0" />
+									</linearGradient>
+								</defs>
+							</svg>
+							+7 (495) 506-36-50</a></li>
+					<li><a href="mailto:office@uconerfo.ru"><i class="icon-email"></i>office@uconerfo.ru</a></li>
+					<li><a href="#"><i class="icon-pen"></i>Заявка на расчет</a></li>
+					<li><a href="#"><i class="icon-support"></i>Контакты</a></li>
+				</ul>
+			</div>
+			<form class="header__top-search xxl-none sm-flex">
+				<button><i class="icon-search"></i></button>
+				<input type="text" name="search" placeholder="Поиск товаров..">
+			</form>
+		</header>
+		<main class="main ">
+			<section class="promo">
+				<div class="container">
+					<div class="promo__content">
+						<div class="promo__text-block">
+							<div class="promo__text-block__title">Дозаторы и антисептики</div> <!-- По идеи H1 -->
+							<p class="promo__text-block__text">Устанавливаются в общественных местах для предотвращения
+								распространения вирусов
+								микробов</p>
+						</div>
+						<div class="promo__img-block">
+							<img src="images/promo_img.png" alt="promo_img">
+						</div>
+						<a href="#" class="promo__more">
+							<svg width="44" height="14" viewBox="0 0 44 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M11.9827 0.345964C12.3992 -0.0963556 13.0953 -0.117331 13.5376 0.299113L19.3794 5.79911C19.6001 6.00698 19.7253 6.29677 19.7253 6.6C19.7253 6.90324 19.6001 7.19303 19.3794 7.40089L13.5376 12.9009C13.0953 13.3173 12.3992 13.2964 11.9827 12.854C11.5663 12.4117 11.5872 11.7156 12.0296 11.2991L17.0206 6.6L12.0296 1.90089C11.5872 1.48445 11.5663 0.788283 11.9827 0.345964Z"
+									fill="#38D3E8" fill-opacity="0.5" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M0.299113 0.345964C0.715558 -0.0963556 1.41172 -0.117331 1.85404 0.299113L7.69577 5.79911C7.91655 6.00698 8.04173 6.29677 8.04173 6.6C8.04173 6.90324 7.91655 7.19303 7.69577 7.40089L1.85404 12.9009C1.41172 13.3173 0.715558 13.2964 0.299113 12.854C-0.117331 12.4117 -0.0963556 11.7156 0.345964 11.2991L5.33704 6.6L0.345964 1.90089C-0.0963556 1.48445 -0.117331 0.788283 0.299113 0.345964Z"
+									fill="#38D3E8" fill-opacity="0.2" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M35.3494 0.345964C35.7659 -0.0963556 36.462 -0.117331 36.9043 0.299113L42.7461 5.79911C42.9668 6.00698 43.092 6.29677 43.092 6.6C43.092 6.90324 42.9668 7.19303 42.7461 7.40089L36.9043 12.9009C36.462 13.3173 35.7659 13.2964 35.3494 12.854C34.933 12.4117 34.9539 11.7156 35.3963 11.2991L40.3873 6.6L35.3963 1.90089C34.9539 1.48445 34.933 0.788283 35.3494 0.345964Z"
+									fill="#38D3E8" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M23.6661 0.345964C24.0825 -0.0963556 24.7787 -0.117331 25.221 0.299113L31.0627 5.79911C31.2835 6.00698 31.4087 6.29677 31.4087 6.6C31.4087 6.90324 31.2835 7.19303 31.0627 7.40089L25.221 12.9009C24.7787 13.3173 24.0825 13.2964 23.6661 12.854C23.2496 12.4117 23.2706 11.7156 23.7129 11.2991L28.704 6.6L23.7129 1.90089C23.2706 1.48445 23.2496 0.788283 23.6661 0.345964Z"
+									fill="#38D3E8" fill-opacity="0.8" />
+							</svg>
+							Подробнее
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="breadcrump sm-none">
+				<div class="container">
+					<div class="breadcrum__content">
+						<p><a href="/">Главная /</a> Отопительное оборудование</p>
+					</div>
+				</div>
+			</section>
+			<section class="catalog ">
+				<div class="container">
+					<div class="catalog__title title">
+						Отопительное оборудование
+						<!-- по идеи H2 и класс тоже на нем же -->
+					</div>
+					<div>
+						<div class="calcProduct xxl-none sm-block"><span>2394</span> товаров</div>
+					</div>
+					<div class="catalog__content">
+						<aside class="catalog__asaid asaid" id="asaid">
+							<form action="">
+								<div class="asaid__body">
+									<div class="asaid__header">
+										<div class="asaid__header-title">Фильтры</div>
+										<div class="asaid__header-reset sm-none reset">
+											<input class="asaid__header-reset" type="reset">
+											<i class="icon-exit-big"></i>
+										</div>
+									</div>
+									<div class="asaid__content">
+										<div class="asaid__equipment asaid__spoilers">
+											<div class="asaid__content-title asaid__spoilers_title"> Отопительное оборудование</div>
+											<ul class="asaid__content-content asaid__spoilers_content">
+												<li><label> <input type="checkbox" name="" checked>Радиаторы отопления</label></li>
+												<li><label> <input type="checkbox" name="">Конвекторы отопления</label></li>
+												<li><label> <input type="checkbox" name="">Полотенцесушители</label></li>
+												<li><label> <input type="checkbox" name="">Арматура для радиаторов </label></li>
+											</ul>
+										</div>
+										<div class="asaid__brand asaid__spoilers">
+											<div class="asaid__content-title asaid__spoilers_title">Бренд
+											</div>
+											<ul class="asaid__content-content asaid__spoilers_content">
+												<li><label> <input type="checkbox" name="">Purmo</label></li>
+												<li><label> <input type="checkbox" name="">Irsap</label></li>
+												<li><label> <input type="checkbox" name="">Terma</label></li>
+												<li><label> <input type="checkbox" name="">Loten</label></li>
+												<li><label> <input type="checkbox" name="">Guardo</label></li>
+											</ul>
+										</div>
+										<div class="asaid__price">
+											<div class="asaid__content-title">Цена</div>
+											<div id="progress"></div>
+										</div>
+
+										<div class="asaid__section asaid__spoilers">
+											<div class="asaid__content-title asaid__spoilers_title">Количество секций
+											</div>
+											<ul class="asaid__content-content asaid__spoilers_content">
+												<li><label> <input type="checkbox" name="4">4</label></li>
+												<li><label> <input type="checkbox" name="6">6</label></li>
+												<li><label> <input type="checkbox" name="8">8</label></li>
+												<li><label> <input type="checkbox" name="12">12</label></li>
+											</ul>
+										</div>
+										<div class="asaid__square asaid__spoilers">
+											<div class="asaid__content-title asaid__spoilers_title">Площадь отопления
+											</div>
+											<ul class="asaid__content-content asaid__spoilers_content">
+												<li><label> <input type="checkbox" name="">Более 19 м² </label></li>
+												<li><label> <input type="checkbox" name="">Менее 8 м²</label></li>
+												<li><label> <input type="checkbox" name="">от 10 до 14 м²</label></li>
+												<li><label> <input type="checkbox" name="">от 15 до 26 м² </label></li>
+											</ul>
+										</div>
+										<div class="asaid__color asaid__spoilers">
+											<div class="asaid__content-title asaid__spoilers_title">Цвет
+											</div>
+											<div class="asaid__content-content asaid__spoilers_content">
+												<ul class="asaid__color_list" id="asaid__color_list">
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="asaid__btns xxl-none sm-flex">
+									<button class="asaid__apply"> <svg width="28" height="10" viewBox="0 0 28 10" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.28003 8.37048L11.92 4.73048L8.28003 1.09048" stroke="white" stroke-opacity="0.5"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M1 8.37072L4.64 4.73072L1 1.09072" stroke="white" stroke-opacity="0.2" stroke-width="2"
+												stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M22.84 8.37048L26.48 4.73048L22.84 1.09048" stroke="white" stroke-width="2"
+												stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M15.56 8.37048L19.2 4.73048L15.56 1.09048" stroke="white" stroke-opacity="0.8"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+										Приминить</button>
+									<div class="asaid__header-reset reset">
+										<input class="asaid__header-reset" type="reset">
+										<i class="icon-exit-big"></i>
+									</div>
+								</div>
+							</form>
+						</aside>
+						<div class="catalog__products">
+							<div class="catalog__products__navbar sm-none">
+								<div><span>2394</span> товаров</div>
+								<div class="dropdown">Цена: <a href="#">По возрастанию <i class="icon-arror-spoilers"></i></a> </div>
+							</div>
+							<div class="catalog__products__navbar xxl-none sm-flex">
+								<div class="filters"><i class="icon-filters"></i>Фильтры</div>
+								<div class="sort filters">Сортировка <i class="icon-arror-spoilers"></i></div>
+							</div>
+							<div class="catalog__products__list">
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod1.png" alt="product1">
+											</div>
+											<p>Биметаллический радиатор Royal Thermo Indigo Super </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+
+											<button><i class="icon-shop"></i></button>
+										</div>
+
+									</div>
+								</div>
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod2.png" alt="product2">
+											</div>
+											<p>Биметаллический радиатор Royal Thermo Indigo Super </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+											<div class="catalog__stock">
+												<div class="catalog__stock__olg-price">5 890<span>₽</span></div>
+												<div class="catalog__stock__block">
+													<i class="icon-percent"></i> Акция
+												</div>
+											</div>
+											<button><i class="icon-shop"></i></button>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod3.png" alt="product3">
+											</div>
+											<p>Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+											<button><i class="icon-shop"></i></button>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod1.png" alt="product1">
+											</div>
+											<p>Биметаллический радиатор Royal Thermo Indigo Super </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+											<button><i class="icon-shop"></i></button>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod2.png" alt="product2">
+											</div>
+											<p>Биметаллический радиатор Royal Thermo Indigo Super </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+											<button><i class="icon-shop"></i></button>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod3.png" alt="product3">
+											</div>
+											<p>Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+											<button><i class="icon-shop"></i></button>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod1.png" alt="product1">
+											</div>
+											<p>Биметаллический радиатор Royal Thermo Indigo Super </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+
+											<button><i class="icon-shop"></i></button>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod2.png" alt="product2">
+											</div>
+											<p>Биметаллический радиатор Royal Thermo Indigo Super </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+											<div class="catalog__stock">
+												<div class="catalog__stock__olg-price">5 890<span>₽</span></div>
+												<div class="catalog__stock__block">
+													<i class="icon-percent"></i> Акция
+												</div>
+											</div>
+											<button><i class="icon-shop"></i></button>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod3.png" alt="product3">
+											</div>
+											<p>Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+											<button><i class="icon-shop"></i></button>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod1.png" alt="product1">
+											</div>
+											<p>Биметаллический радиатор Royal Thermo Indigo Super </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+											<button><i class="icon-shop"></i></button>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod2.png" alt="product2">
+											</div>
+											<p>Биметаллический радиатор Royal Thermo Indigo Super </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+											<button><i class="icon-shop"></i></button>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__products__list__box">
+									<div class="catalog__products__list__box--item">
+										<div class="catalog__info">
+											<div class="catalog__img-bx">
+												<img src="images/poducts/prod3.png" alt="product3">
+											</div>
+											<p>Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico </p>
+										</div>
+										<div class="catalog__price">
+											<p>4 250 <span>₽</span></p>
+											<button><i class="icon-shop"></i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="catalog__show-more xxl-none sm-block">Показать еще</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="seo sm-none">
+				<div class="seo__container">
+					<div class="seo__content">
+						<div>Длинный или короткий заголовок SEO текста</div>
+						<!-- вместе h2 и классов буду использовать разные теги, это один из способов, или просто :nth-child() -->
+						<p> Интернет-магазин автоматической водосберегающей сантехники и дизайн радиаторов отопления <br>
+							Сантехническое
+							и отопительное оборудование - основные продукты интернет-магазина "Экон Урфо". <br> На сайте urfoecon.ru,
+							вы
+							можете выбрать и купить автоматическую водосберегающую сантехнику и дизайн радиаторы отопления. На сайте
+							urfoecon.ru, вы можете выбрать: смесители, душевые, смывные устройства для унитазов и писсуаров, а так же
+							дополнительные товары: сушилки для рук, дозаторы мыла, фены для волос, держатели туалетной бумаги, ведра и
+							другое.
+						</p>
+						<p>Преимущества автоматической водосберегающей сантехники — экономия денег и воды! Результат будет заметен с
+							первого месяца установки. Обратитесь к нашим специалистам и узнайте вашу выгоду при использовании
+							автоматической водосберегающей сантехники. Звоните или оставляйте заявку на расчет.</p>
+						<div>Подзаголовок внутри текста</div>
+						<p>На сайте urfoecon.ru, вы можете выбрать красивые современные модели радиаторов отопления Европейских и
+							Российских производителей. Радиаторы представленные в каталоге,изготовлены из прочных материалов: сталь,
+							алюминий и биметалл. Мы уверены в качестве нашей продукции и предоставляем гарантию до 25 лет на радиаторы
+							отопления. В нашем ассортименте: водяные и электрические радиаторы, высокие, средние и низкие, узкие и
+							широкие, трубчатые и панельные модели, стандартные белые, черные, бежевые и любые цвета по шкале RAL.</p>
+						<p>Обратитесь к нашим специалистам и подберите радиаторы, которые гармонично впишутся в ваш интерьер и будут
+							эффективно обогревать ваш дом. Звоните или оставляйте заявку на расчет.</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer ">
+			<div class="container">
+				<div class="footer__top">
+					<div class="footer__item">
+						<div class="footer__item-img">
+							<img src="images/logo.svg" alt="logo">
+						</div>
+						<a href="tel:+74955063650" class="footer__phone"><i class="icon-phone-footer"></i>+7 (495) 506-36-50</a>
+						<div class="footer__work-days">
+							<p>Пн-Пт: с 08:00 до 19:00</p>
+							<p>Сб-Вс: с 08:00 до 16:00</p>
+						</div>
+						<a class="footer__email" href="emailto:office@uconerfo.ru"><i class="icon-email"></i>office@uconerfo.ru</a>
+						<div class="footer__social">
+							<p>Мы в сети</p>
+							<div>
+								<a href="#"><i class="icon-vk"></i>ВКонтакте</a>
+								<a href="#"><i class="icon-insta"></i>Instagram</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__item">
+						<div class="footer__sub-title">
+							Категории продукции
+						</div>
+						<ul>
+							<li><a href="#">Трубчатые радиаторы</a></li>
+							<li><a href="#">Панельные радиаторы</a></li>
+							<li><a href="#">Полотенцесушители</a></li>
+							<li><a href="#">Вертикальные радиаторы </a></li>
+							<li><a href="#">Дизайн радиаторы</a></li>
+							<li><a href="#">Внутрипольные конвекторы</a></li>
+							<li><a href="#">Конвекторы водяные</a></li>
+							<li><a href="#">Водосберегающая сантехника</a></li>
+							<li><a href="#">Теплый пол</a></li>
+							<li><a href="#">Чугунные дизайн радиаторы</a></li>
+							<li><a href="#">Арматура для радиаторов</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<div class="footer__sub-title">
+							Категории продукции
+						</div>
+						<ul>
+							<li><a href="#">Трубчатые радиаторы</a></li>
+							<li><a href="#">Панельные радиаторы</a></li>
+							<li><a href="#">Полотенцесушители</a></li>
+							<li><a href="#">Вертикальные радиаторы </a></li>
+							<li><a href="#">Дизайн радиаторы</a></li>
+							<li><a href="#">Внутрипольные конвекторы</a></li>
+							<li><a href="#">Конвекторы водяные</a></li>
+							<li><a href="#">Водосберегающая сантехника</a></li>
+							<li><a href="#">Теплый пол</a></li>
+							<li><a href="#">Чугунные дизайн радиаторы</a></li>
+							<li><a href="#">Арматура для радиаторов</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<div class="footer__sub-title">
+							Информация
+						</div>
+						<ul>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Готовые решения</a></li>
+							<li><a href="#">Наша продукция</a></li>
+							<li><a href="#">Цвета </a></li>
+							<li><a href="#">Сертификаты</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div>Copyright © 2014 - 2020</div>
+					<div> <a href="#">Политика конфиденциальности</a> </div>
+					<div> <a href="#">Обработка персональной информации</a> </div>
+					<div>Разработано <a href="https://requestdesign.ru/" target="_blank"> <svg width="31" height="31"
+								viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M2.12132 17.6213C0.94975 16.4498 0.949748 14.5503 2.12132 13.3787L13.3787 2.12132C14.5503 0.94975 16.4497 0.949747 17.6213 2.12132L28.8787 13.3787C30.0503 14.5502 30.0503 16.4497 28.8787 17.6213L17.6213 28.8787C16.4498 30.0503 14.5503 30.0503 13.3787 28.8787L2.12132 17.6213Z"
+									fill="#242424" />
+								<path
+									d="M24.4116 15.5C24.4116 20.4026 20.4373 24.3769 15.5347 24.3769C10.6321 24.3769 6.65771 20.4026 6.65771 15.5C6.65771 10.5974 10.6321 6.62305 15.5347 6.62305C20.4373 6.62305 24.4116 10.5974 24.4116 15.5Z"
+									fill="#FCFCFC" />
+								<path
+									d="M9.98657 12.9522C9.98657 11.2953 11.3297 9.95215 12.9866 9.95215H18.1616C19.8185 9.95215 21.1616 11.2953 21.1616 12.9521V18.1272C21.1616 19.7841 19.8185 21.1272 18.1616 21.1272H12.9866C11.3297 21.1272 9.98657 19.7841 9.98657 18.1272V12.9522Z"
+									fill="#242424" />
+								<path
+									d="M19.3875 15.4847C19.3875 17.6211 17.6556 19.353 15.5192 19.353C13.3828 19.353 11.6509 17.6211 11.6509 15.4847C11.6509 13.3483 13.3828 11.6165 15.5192 11.6165C17.6556 11.6165 19.3875 13.3483 19.3875 15.4847Z"
+									fill="#FCFCFC" />
+								<path
+									d="M14.5772 16.2071C14.1867 15.8166 14.1867 15.1834 14.5772 14.7929L14.936 14.4341C15.3265 14.0436 15.9597 14.0436 16.3502 14.4341L16.709 14.7929C17.0995 15.1834 17.0995 15.8166 16.709 16.2071L16.3502 16.5659C15.9597 16.9564 15.3265 16.9564 14.936 16.5659L14.5772 16.2071Z"
+									fill="#242424" />
+							</svg>
+							<span> <strong>Request</strong> Design</span></a> </div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="libs/progress/nouislider.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,10 +1,11 @@
 @import "base/nullStyle";
 @import "base/letColor";
 
-body{
-	font-family: Roboto;
-	color: $black;
+body {
+  font-family: Roboto;
+  color: $black;
 }
+
 .wrapper {
   min-height: 100vh;
   display: flex;
@@ -22,3 +23,4 @@ body{
 }
 
 @import "blocks/header";
+@import "blocks/sliders";
